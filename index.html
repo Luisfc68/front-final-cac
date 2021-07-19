@@ -9,59 +9,66 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--Propios-->
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
 
-    <header>
-        <nav>
-            <h1>Codo a codo</h1>
-            <ul>
-                <li>
-                    Inicio
-                </li>
-                <li>
-                    Servicios
-                    <ul>
-                        <li>
-                            Ventas
-                        </li>
-                        <li>
-                            Colaboración
-                        </li>
-                        <li>
-                            Reparación
-                        </li>
-                        <li>
-                            Pedidos
-                            <ul>
-                                <li>
-                                    Ingresar
-                                </li>
-                                <li>
-                                    Consultar
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    Acerca de
-                    <ul>
-                        <li>
-                            Nosotros
-                        </li>
-                        <li>
-                            Nuestra misión
-                        </li>
-                        <li>
-                            Historia
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    Contacto
-                </li>
-            </ul>
+    <header class="navbar-header">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark pt-2">
+            <h1 class="navbar-brand h1 text-capitalize mt-1 ml-2">Codo a codo</h1>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu-principal">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" >Servicios</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                Ventas
+                            </li>
+                            <li class="dropdown-item">
+                                Colaboración
+                            </li>
+                            <li class="dropdown-item">
+                                Reparación
+                            </li>
+                            <li class="dropdown-item dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown">Pedidos</a>
+                                <ul class="dropdown-menu subdropdown">
+                                    <li class="dropdown-item">
+                                        Ingresar
+                                    </li>
+                                    <li class="dropdown-item">
+                                        Consultar
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Acerca de</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                Nosotros
+                            </li>
+                            <li class="dropdown-item">
+                                Nuestra misión
+                            </li>
+                            <li class="dropdown-item">
+                                Historia
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
         <hr>
