@@ -66,3 +66,14 @@ main h2{
         padding: .2rem !important;
     }
 }
+
+/*--- Footer ---*/
+
+footer{
+    background-color: #1F1926;
+    color: #FEF6FF;
+}
+
+footer li{
+    cursor: default;
+}

@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6c788b9428.js" crossorigin="anonymous"></script>
     <!--Propios-->
     <link rel="stylesheet" href="css/custom.css">
 </head>
@@ -77,7 +78,7 @@
     <img src="./img/banner-cortado.png" class="imagen-principal" alt="Banner azul con puntos">
     <hr>
 
-    <main class="p-5">
+    <main class="pb-0 pt-5 px-5">
         
         <h2 class="display-4 info-title">Nuestra historia</h2>
         <p class="text-justify p-4 info">
@@ -85,24 +86,32 @@
         </p>
     </main>
 
-    <footer>
+    <footer class="text-center p-4">
         <h3>
             Contáctanos
         </h3>
-        <!-- 
-            Incluir logos de las redes sociales
-        -->
-        <ul>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-            <li>Telefono</li>
+
+        <ul class="list-unstyled">
+            <li class="d-inline-block px-5 py-3 mx-2 pe-none">
+                <i class="align-middle fab fa-instagram fa-4x"></i>
+                <p class="align-bottom pt-3 h4">@Instagram</p>
+            </li>
+            <li class="d-inline-block px-5 py-3 mx-2">
+                <i class="align-middle fab fa-twitter fa-4x"></i>
+                <p class="align-bottom pt-3 h4">@Twitter</p>
+            </li>
+            <li class="d-inline-block px-5 py-3 mx-2">
+                <i class="align-middle fab fa-facebook-square fa-4x"></i>
+                <p class="align-bottom pt-3 h4">Facebook</p>
+            </li>
+            <li class="d-inline-block px-5 py-3 mx-2">
+                <i class="align-middle fas fa-phone fa-4x"></i>
+                <p class="align-bottom pt-3 h4">11 - 1234 1234</p>
+            </li>
         </ul>
         <p>Diseñado por Luis Chavez</p>
-        <p>&copy;Copyright</p>
+        <p class="mb-0">&copy;Copyright</p>
         
     </footer>
-
-
 </body>
 </html>
