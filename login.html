@@ -13,28 +13,27 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body class="text-center">
-    <main class="">
-        <h1>
-            CAC
-        </h1>
-        <h2>
+    <main class="mx-auto rounded px-5 pt-5 pb-0">
+        <img class="mb-4" src="img/logo.jpg" alt="Logo">
+        <h2 class="pb-4">
             Ingreso al sistema
         </h2>
-        <form action="" method="POST">
-            <div>
-                <label for="">
+        <form action="" method="POST" class="needs-validation">
+            <div class="form-group text-left">
+                <label for="correo" class="font-weight-bold">
                     Nombre:
-                   </label>
-                <input type="email" name="correo" id="correo">
+                </label>
+                <input type="email" class="form-control" name="correo" id="correo" placeholder="Correo" required>
             </div>
-            <div>
-                <label for="">
+            <div class="form-group text-left">
+                <label for="clave" class="font-weight-bold">
                     Contraseña:
                 </label>
-                <input type="password" name="clave" id="clave">
+                <input type="password" class="form-control" placeholder="Contraseña" name="clave" id="clave" required>
             </div>
-            <input type="submit" value="Ingresar">
+            <input class="mt-3 mb-0 btn btn-lg btn-outline-dark" type="submit" value="Ingresar">
         </form>
+        <p class="pt-3 pb-4">&copy;Copyright </p>
     </main>
 </body>
 </html>
