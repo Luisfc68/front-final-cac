@@ -2,14 +2,14 @@ body{
     background-color: #1F1926;
 }
 
-main{
+#login{
     background-color: #FEF6FF;
     max-width: 500px !important;
     margin-top: 7vh;
     box-shadow: 18px 18px 30px black;
 }
 @media (max-width: 768px) {
-    main{
+    #login{
         width:80% !important;
     }
     h2{
